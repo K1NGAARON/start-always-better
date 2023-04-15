@@ -1,0 +1,87 @@
+.banner,
+.banner .row {
+    height: 70vh;
+    min-height: fit-content;
+}
+
+.benefits {
+    list-style: none;
+}
+
+.benefits li {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.benefits.smaller li {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.benefits.smaller li:before {
+    font-size: 26px;
+}
+
+.benefits li:before {
+    content: '✓';
+    color: var(--primary);
+    font-size: 40px;
+}
+
+.about img {
+    border-radius: var(--borderRadius);
+}
+
+.social-proof {
+    background-color: var(--black);
+}
+
+.social-proof .wrapper {
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-proof .wrapper img {
+    max-width: 100px;
+}
+
+.social-proof .wrapper .item {
+    align-items: center;
+}
+
+.reviews .wrapper {
+    gap: 40px;
+}
+
+.reviews .wrapper .item {
+    align-items: center;
+    padding: 30px;
+    border-radius: 26px;
+    box-shadow: var(--boxShadow);
+    text-align: center;
+}
+
+.reviews .item .body {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.reviews .item .author {
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: auto;
+}
+
+.faq.wrapper {
+    width: 60%;
+} 
+
+.border-radius {
+    border-radius: var(--borderRadius);
+}
+
+.steps .large {
+    font-size: 56px;
+}

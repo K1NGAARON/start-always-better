@@ -1,0 +1,91 @@
+.banner,
+.banner .row {
+    height: 70vh;
+    min-height: fit-content;
+}
+
+.benefits {
+    list-style: none;
+}
+  
+.benefits li:before {
+    content: '✓';
+    color: var(--primary);
+    font-size: 22px;
+}
+
+.section .video-wrapper {
+    width: 100%;
+}
+
+.section .video-wrapper iframe {
+    border-radius: var(--borderRadius);
+}
+
+.section.contact .form-wrapper {
+    width: 100%;
+}
+
+.faq.wrapper {
+    width: 60%;
+}
+
+.form-wrapper .container {
+    display: flex;
+    gap: 20px;
+}
+
+.form-wrapper .container .col {
+    flex: 1 0 40%;
+}
+
+.form-wrapper .container .col:nth-child(1) {
+    border-right: 1px solid #00000060;
+    padding-right: 20px;
+}
+
+.form-wrapper .small {
+    font-size: 14px;
+    text-align: center;
+}
+
+@media (max-width: 560px) {
+    .banner, 
+    .banner .row {
+        height: fit-content;
+    }
+
+    .banner h1 {
+        font-size: 28px;
+    }
+
+    .section h2 {
+        font-size: 10px;
+    }
+
+    .form-wrapper .container {
+        flex-direction: column;
+    }
+
+    .video-wrapper {
+        display: none;
+    }
+
+    .section .row {
+        flex-flow: column;
+        gap: 20px;
+        margin: 40px auto;
+    }
+
+    .faq.wrapper {
+        width: 100%;
+    }
+
+    .form-wrapper .container .col:nth-child(1) {
+        border-right: none;
+    }
+
+    .form-wrapper input {
+        background-color: var(--white);
+    }
+}
