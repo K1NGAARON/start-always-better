@@ -58,6 +58,10 @@ li {
     font-size: 20px;
 }
 
+.banner.section .row {
+    padding-top: 40px;
+}
+
 .subheadline {
     color: var(--primary);
     font-weight: 700;
@@ -68,7 +72,6 @@ li {
 .underline {
     text-decoration: underline;
     font-weight: 700;
-    color: var(--primary);
 }
 
 img {
