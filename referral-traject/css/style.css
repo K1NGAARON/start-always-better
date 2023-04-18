@@ -33,20 +33,37 @@
 .form-wrapper .container {
     display: flex;
     gap: 20px;
+    flex-direction: column;
 }
 
-.form-wrapper .container .col {
-    flex: 1 0 40%;
-}
-
-.form-wrapper .container .col:nth-child(1) {
+.form-wrapper .container .form-row .col:nth-child(1) {
     border-right: 1px solid #00000060;
     padding-right: 20px;
+}
+
+.form-wrapper h5 {
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .form-wrapper .small {
     font-size: 14px;
     text-align: center;
+}
+
+.form-wrapper .form-row {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.form-wrapper .form-row.col {
+    flex-direction: column;
+    flex: 1 0;
+}
+
+.section .form-wrapper .form-row .col {
+    flex: 1 0;
 }
 
 @media (max-width: 560px) {
