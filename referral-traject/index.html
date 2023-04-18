@@ -139,6 +139,7 @@
         </h2>
         <div class="wrapper">
             <div class="item">
+                <img src="/referral-traject/img/about.jpg" alt="">
                 <h3>
                     Cadeau 1
                 </h3>
@@ -147,6 +148,7 @@
                 </p>
             </div>
             <div class="item">
+                <img src="/referral-traject/img/about.jpg" alt="">
                 <h3>
                     Cadeau 2
                 </h3>
@@ -155,6 +157,7 @@
                 </p>
             </div>
             <div class="item">
+                <img src="/referral-traject/img/about.jpg" alt="">
                 <h3>
                     Cadeau 3
                 </h3>
@@ -163,6 +166,7 @@
                 </p>
             </div>
             <div class="item">
+                <img src="/referral-traject/img/about.jpg" alt="">
                 <h3>
                     Cadeau 4
                 </h3>
@@ -174,7 +178,7 @@
     </div>
 </div>
 
-<div class="section" id="traject">
+<!-- <div class="section" id="traject">
     <div class="row">
         <div class="col">
             <p class="subheadline">
@@ -202,9 +206,9 @@
             <img class="border-radius" src="/referral-traject/img/community.jpg" alt="Over Always Better">
         </div>
     </div>
-</div>
+</div> -->
 
-<div class="section">
+<!-- <div class="section">
     <div class="row">
         <div class="col">
             <img class="border-radius" src="/referral-traject/img/image3.png" alt="Over Always Better">
@@ -232,7 +236,7 @@
             </a>
         </div>
     </div>
-</div>
+</div> -->
 
 <div class="section contact" id="form">
     <div class="row">
@@ -250,30 +254,41 @@
                             Vul jouw eigen gegevens in
                         </h5>
                         <div class="form-row col">
-                            <input type="text" value="" name="name" placeholder="Vul je eigen naam in*" required>
-                            <input type="email" value="" name="email" placeholder="Vul je eigen mail in*" required>
-                            <select name="gifts" id="gifts">
-                                <option class="opacity-6" value="placeholder" disabled selected>Kies jouw cadeau*</option>
-                                <option value="volvo">Gift 1</option>
-                                <option value="saab">Gift 2</option>
-                                <option value="mercedes">Gift 3</option>
-                                <option value="audi">Gift 4</option>
-                            </select>
+                            <div class="form-row">
+                                <input type="text" value="" name="fname" placeholder="Voornaam*" required>
+                                <input type="text" value="" name="lname" placeholder="Familienaam*" required>
+                            </div>
+
+                            <div class="form-row">
+                                <input type="email" value="" name="email" placeholder="Vul je eigen mail in*" required>
+                                <select name="gifts" id="gifts">
+                                    <option class="opacity-6" value="placeholder" disabled selected>Kies jouw cadeau*</option>
+                                    <option value="volvo">Gift 1</option>
+                                    <option value="saab">Gift 2</option>
+                                    <option value="mercedes">Gift 3</option>
+                                    <option value="audi">Gift 4</option>
+                                </select>
+                            </div>
                         </div>
 
-                        <h5 class="mt-20">
-                            Gegevens vrienden
-                        </h5>
-                        <div class="form-row">
-                            <div class="col">
-                                <input type="text" value="" name="name" placeholder="Naam friend 1">
-                                <input type="email" value="" name="email2" placeholder="Mailadres friend 1">
-                                <input type="text" value="" name="phone" placeholder="Telefoonnumer friend 1">
+                        <div class="friends">
+                            <h5 class="mt-20">
+                                Gegevens vrienden
+                            </h5>
+    
+                            <div class="form-row">
+                                <input type="text" value="" name="fname1" placeholder="Voornaam 1">
+                                <input type="text" value="" name="fname2" placeholder="Voornaam 2">
                             </div>
-                            <div class="col">
-                                <input type="text" value="" name="name" placeholder="Naam friend 2">
-                                <input type="email" value="" name="email3" placeholder="Mailadres friend 2">
-                                <input type="text" value="" name="phone" placeholder="Telefoonnumer friend 2">
+    
+                            <div class="form-row">
+                                <input type="text" value="" name="lname1" placeholder="Familienaam 1">
+                                <input type="text" value="" name="lname2" placeholder="Familienaam 2">
+                            </div>
+    
+                            <div class="form-row">
+                                <input type="email" value="" name="email1" placeholder="Mailadres 1">
+                                <input type="email" value="" name="email2" placeholder="Mailadres 2">
                             </div>
                         </div>
                     </div>
@@ -298,21 +313,6 @@
         </h2>
         <div class="wrapper faq">
             <div class="accordion-list">
-                <div class="accordion-item">
-                    <div class="accordion-head active">
-                        <h5>
-                            Is het een gratis traject?
-                        </h5>
-                        <div class="icon active">
-                            <i class="fa-solid fa-minus"></i>
-                        </div>
-                    </div>
-                    <div class="accordion-body active">
-                        <p>
-                            Ja, het traject is volledig gratis en op maat gemaakt.
-                        </p>
-                    </div>
-                </div>
                 <div class="accordion-item">
                     <div class="accordion-head">
                         <h5>

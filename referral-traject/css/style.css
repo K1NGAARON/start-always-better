@@ -82,6 +82,14 @@
     box-shadow: var(--boxShadow);
 }
 
+.gifts .wrapper .item img {
+    border-radius: var(--borderRadius);
+}
+
+.gifts .wrapper .item h3 {
+    margin-top: 20px;
+}
+
 @media (max-width: 560px) {
     .banner, 
     .banner .row {

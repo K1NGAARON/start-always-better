@@ -102,6 +102,12 @@
     gap: 10px;
 }
 
+.form-wrapper .small.center {
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0;
+}
+
 .form-wrapper .multiple .form-row {
     flex: 1 0 40%;
 }
