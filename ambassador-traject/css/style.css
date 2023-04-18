@@ -90,13 +90,20 @@
 
 .form-wrapper .form-row {
     display: flex;
+    align-items: center;
     gap: 20px;
+    flex-flow: row wrap;
 }
 
 .form-wrapper .multiple {
     border: none;
     display: flex;
-    flex-direction: column;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+
+.form-wrapper .multiple .form-row {
+    flex: 1 0 40%;
 }
 
 .form-wrapper .multiple input {
@@ -106,4 +113,21 @@
 
 .form-wrapper .multiple input {
     flex: unset;
+}
+
+.form-wrapper .distance {
+    flex: 1 0 100%;
+}
+
+.form-wrapper .locatie p,
+.form-wrapper .locatie a {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.form-wrapper p {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
 }

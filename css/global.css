@@ -349,6 +349,10 @@ img {
     opacity: 0.5;
 }
 
+.faq .accordion-list .accordion-item .accordion-body a {
+    font-size: 16px;
+}
+
 .faq a {
     transition: var(--transition);
     color: var(--primary);

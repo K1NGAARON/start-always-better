@@ -131,20 +131,32 @@
                     <p>Ervaar je fysieke klachten?*</p> 
                     <fieldset class="multiple">          
                         <div class="form-row">
-                            <input type="checkbox" name="rugpijn" value="rugpijn">
+                            <input type="checkbox" name="rugpijn" value="yes">
                             <label for="rugpijn">Rugpijn</label>
                         </div>
                         <div class="form-row">
-                            <input type="checkbox" name="favorite_pet" value="rugpijn">
-                            <label for="rugpijn">Rugpijn</label>
+                            <input type="checkbox" name="spanningshoofdpijn" value="yes">
+                            <label for="spanningshoofdpijn">Spanningshoofdpijn</label>
                         </div>
                         <div class="form-row">
-                            <input type="checkbox" name="favorite_pet" value="rugpijn">
-                            <label for="rugpijn">Rugpijn</label>
+                            <input type="checkbox" name="kortademigheid" value="yes">
+                            <label for="kortademigheid">Kortademigheid</label>
                         </div>
                         <div class="form-row">
-                            <input type="checkbox" name="favorite_pet" value="rugpijn">
-                            <label for="rugpijn">Rugpijn</label>
+                            <input type="checkbox" name="stress" value="yes">
+                            <label for="stress">Stress</label>
+                        </div>
+                        <div class="form-row">
+                            <input type="checkbox" name="schouderpijn" value="yes">
+                            <label for="schouderpijn">Schouderpijn</label>
+                        </div>
+                        <div class="form-row">
+                            <input type="checkbox" name="kniepijn" value="yes">
+                            <label for="kniepijn">Kniepijn</label>
+                        </div>
+                        <div class="form-row">
+                            <input type="checkbox" name="andere" value="yes">
+                            <label for="andere">Andere</label>
                         </div>
                     </fieldset>
         
@@ -152,7 +164,19 @@
                         <input type="text" value="" name="company" placeholder="Bedrijfsnaam*" required>
                         <input type="text" value="" name="vat" placeholder="BTW nummer*" required>
                     </div>
-                    <input type="text" value="" name="distance" placeholder="Afstand tot onze locatie*" required>
+
+                    <div class="form-row locatie">
+                        <select name="distance" class="distance">
+                            <option class="opacity-6" value="placeholder" disabled selected>Hoe ver woon je van de locatie?*</option>
+                            <option value="0-4">0-4 km</option>
+                            <option value="4-10">4-10 km</option>
+                            <option value="10">10+ km</option>
+                        </select>
+                        <i class="fa-solid fa-circle-info"></i>
+                        <p>
+                            De locatie bevindt zich in <a href="" target="_blank>">Dok Noord</a>.
+                        </p>
+                    </div>
 
                     <input type="hidden" name="tags" value="ambassador-traject-lead" />
                     <input type="submit" value="Start jouw gratis traject ➔" name="subscribe" class="btn">
@@ -396,7 +420,7 @@
                     </div>
                     <div class="accordion-body">
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores rerum debitis ut odit dicta repellat sint ducimus nemo eum at?
+                            Always Better heeft jouw gegevens nodig om je op de hoogte te houden van onze evenementen & acties. Jouw gegevens worden nooit met derden gedeeld.
                         </p>
                     </div>
                 </div>
