@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/header-footer.css">
 
+    <link rel="stylesheet" href="/home/css/style.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
@@ -39,18 +41,89 @@
     <!-- End Google Tag Manager (noscript) -->
 
 <header>
-    <div class="section header">
-        
+    <div class="section header" id="header">
+        <div class="row">
+            <div class="container">
+                <a class="nav-logo" href="/referral-traject/">
+                    <img class="logo" src="/assets/logo/logo.svg" alt="Always Better Logo">
+                </a>
+                <a class="nav" href="#mission">
+                    Onze missie
+                </a>
+                <a class="nav" href="#traject">
+                    Referral Traject
+                </a>
+                <a class="nav" href="#faq">
+                    Veelgestelde vragen
+                </a>
+            </div>
+        </div>
+
+        <div class="topnav-content-sm">
+            <div class="header-col">
+                <a href="/referral-traject/">
+                    <img class="logo" src="/assets/logo/logo.svg" alt="Always Better Logo">
+                </a>
+            </div>
+            <div class="header-col">
+                <a class="icon" id="menu-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                </a>
+            </div>
+        </div>
+        <div class="small-menu-wrapper">
+            <div class="small-menu-content">
+                <a class="nav" href="#mission">
+                    Onze missie
+                </a>
+                <a class="nav" href="#traject">
+                    Referral Traject
+                </a>
+                <a class="nav" href="#faq">
+                    Veelgestelde vragen
+                </a>
+            </div>
+        </div>
+
     </div>
 </header>
 
-<div class="section">
-    <div class="row flex-col">
+<div class="section main">
+    <div class="row flex-col align-start gap-20">
         <h1>
-            Hey this is my headline
+            Welkom bij Always Better
         </h1>
+        <p>
+            Ontdek een aantal van onze assets
+        </p>
+        <div class="wrapper">
+            <a href="" class="btn">
+                Always Better website
+            </a>
+            <a href="" class="btn">
+                Always Better shop
+            </a>
+        </div>
     </div>
+    <div class="overlay"></div>
 </div>
+
+<footer>
+    <div class="section footer" id="footer">
+        <div class="row">
+            <img class="logo" src="/assets/logo/logo-white.svg" alt="Always Better Logo">
+            <p class="legal">
+                Copyright ©2023 Always Better
+                <br><br>
+                Stapelplein 70/3
+                <br>
+                9000 Gent
+                <br>
+                BE 0775.474.715
+            </p>
+        </div>
+    </div>
+</footer>
 
 
     <script src="/node_modules/jquery/dist/jquery.min.js"></script>

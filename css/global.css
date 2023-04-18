@@ -120,6 +120,14 @@ img {
     flex-direction: column;
 }
 
+.section .row.flex-col.align-start {
+    align-items: flex-start;
+}
+
+.section .row.gap-20 {
+    gap: 20px;
+}
+
 .section .row .col {
     flex: 1 0 350px;
 

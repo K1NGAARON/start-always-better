@@ -1,0 +1,22 @@
+.header {
+    background-color: var(--white);
+}
+
+.main {
+    height: 100vh;
+    justify-content: center;
+    background-image: url('/referral-traject/img/about.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.main .row {
+    z-index: 10;
+    color: var(--white);
+}
+
+.main .overlay {
+    background-color: var(--black);
+}
