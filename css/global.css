@@ -215,7 +215,9 @@ img {
     margin: 0;
 }
 
-.form-wrapper input {
+.form-wrapper input,
+.form-wrapper option,
+.form-wrapper select {
     color: var(--black);
     flex: 1;
     width: 100%;
@@ -228,6 +230,11 @@ img {
     outline: none;
     font-size: 18px;
     transition: border-bottom 200ms ease;
+}
+
+.form-wrapper input::placeholder {
+    color: var(--black);
+    opacity: 0.6;
 }
 
 .form-wrapper input:focus {
