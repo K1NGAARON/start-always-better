@@ -52,7 +52,9 @@ a {
     text-decoration: none;
 }
 
-p {
+p,
+a,
+li {
     font-size: 20px;
 }
 
