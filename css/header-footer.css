@@ -117,6 +117,10 @@
     margin: 30px auto;
 }
 
+.footer .legal {
+    font-size: 14px;
+}
+
 @media (max-width: 560px) {
     .header .row {
         display: none;
