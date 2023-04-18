@@ -1,7 +1,11 @@
 .banner,
 .banner .row {
-    height: 70vh;
+    /* height: 70vh; */
     min-height: fit-content;
+}
+
+.banner .row {
+    padding-top: 40px;
 }
 
 .benefits {
