@@ -65,6 +65,12 @@ li {
     text-transform: uppercase;
 }
 
+.underline {
+    text-decoration: underline;
+    font-weight: 700;
+    color: var(--primary);
+}
+
 img {
     width: 100%;
     height: auto;

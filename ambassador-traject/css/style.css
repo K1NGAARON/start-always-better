@@ -1,6 +1,5 @@
 .banner,
 .banner .row {
-    /* height: 70vh; */
     min-height: fit-content;
 }
 
@@ -14,7 +13,6 @@
 
 .benefits li {
     font-size: 30px;
-    font-weight: 700;
 }
 
 .benefits.smaller li {
@@ -88,4 +86,24 @@
 
 .steps .large {
     font-size: 56px;
+}
+
+.form-wrapper .form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-wrapper .multiple {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-wrapper .multiple input {
+    height: 20px;
+    width: 20px;
+}
+
+.form-wrapper .multiple input {
+    flex: unset;
 }
