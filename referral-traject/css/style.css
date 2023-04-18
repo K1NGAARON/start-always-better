@@ -66,6 +66,22 @@
     flex: 1 0;
 }
 
+.section .form-wrapper .mt-20 {
+    margin-top: 20px;
+}
+
+.gifts .wrapper {
+    gap: 40px;
+}
+
+.gifts .wrapper .item {
+    flex: 1 0 20%;
+    background-color: var(--white);
+    padding: 30px;
+    border-radius: var(--borderRadius);
+    box-shadow: var(--boxShadow);
+}
+
 @media (max-width: 560px) {
     .banner, 
     .banner .row {
