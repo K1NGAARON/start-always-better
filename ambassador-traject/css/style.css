@@ -146,11 +146,58 @@
 }
 
 @media (max-width: 560px) {
+    .banner.section h1 {
+        font-size: 30px;
+    }
+
+    .section h2,
+    .steps .large {
+        font-size: 26px;
+    }
+
+    .benefits li {
+        font-size: 20px;
+    }
+
+    .benefits li:before {
+        font-size: 20px;
+    }
+
     .faq.wrapper {
         width: 100%;
     }
 
     .reviews .wrapper .item {
         flex: 1 0 100%;
+    }
+
+    .form-wrapper label {
+        font-size: 12px;
+    }
+
+    .form-wrapper .multiple input {
+        width: 15px;
+        height: 15px;
+    }
+
+    .form-wrapper input::placeholder,
+    .form-wrapper select::placeholder {
+        font-size: 12px;
+    }
+
+    .form-wrapper .btn {
+        font-size: 14px;
+    }
+    
+    .form-wrapper .small.center {
+        font-size: 12px;
+    }
+
+    .social-proof .wrapper {
+        gap: 40px;
+    }
+
+    .social-proof .wrapper img {
+        max-width: 50px;
     }
 }
