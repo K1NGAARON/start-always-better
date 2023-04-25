@@ -181,11 +181,13 @@
     }
 
     .form-wrapper input::placeholder,
-    .form-wrapper select::placeholder {
+    .form-wrapper select::placeholder,
+    .form-wrapper .distance {
         font-size: 14px;
     }
 
-    .form-wrapper .btn {
+    .form-wrapper .btn,
+    .section .row .btn {
         font-size: 10px;
     }
     
