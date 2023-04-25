@@ -168,7 +168,7 @@
     }
 
     .header .small-menu-content .btn {
-        color: var(--white);
+        color: var(--primary);
         font-size: 18px;
         border-radius: 3px;
         text-transform: uppercase;
