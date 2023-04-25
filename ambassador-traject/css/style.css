@@ -200,4 +200,16 @@
     .social-proof .wrapper img {
         max-width: 50px;
     }
+
+    .header.section .nav::before {
+        background-color: var(--primary);
+    }
+
+    .steps.section .row {
+        align-items: flex-start;
+    }
+
+    .header.active .topnav-content-sm svg {
+        fill: var(--primary);
+    }
 }
