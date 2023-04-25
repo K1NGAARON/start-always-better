@@ -69,7 +69,7 @@
 
 .reviews .item .body {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .reviews .item .author {
@@ -182,7 +182,7 @@
 
     .form-wrapper input::placeholder,
     .form-wrapper select::placeholder {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .form-wrapper .btn {
@@ -198,18 +198,29 @@
     }
 
     .social-proof .wrapper img {
-        max-width: 50px;
+        max-width: 90px;
     }
 
     .header.section .nav::before {
         background-color: var(--primary);
     }
 
-    .steps.section .row {
+    .steps.section .row,
+    .reviews.section .row,
+    .faqs.section .row {
         align-items: flex-start;
     }
 
     .header.active .topnav-content-sm svg {
         fill: var(--primary);
+    }
+
+    .reviews .wrapper .item {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .header.active .btn {
+        background-color: transparent;
     }
 }
