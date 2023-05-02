@@ -1,0 +1,175 @@
+.section {
+    background-color: #f8fcfe;
+}
+
+.section .row {
+    gap: 20px;
+}
+
+.banner h1 {
+    font-size: 46px;
+}
+
+.banner h1,
+.banner p {
+    width: 60%;
+}
+
+.section h2 {
+    font-size: 76px;
+    text-align: center;
+    width: 50%;
+}
+
+.section.black h2,
+.section.black p  {
+    color: var(--white);
+}
+
+.banner,
+.banner .row {
+    min-height: fit-content;
+}
+
+.banner .row {
+    padding-top: 40px;
+}
+
+.coaching {
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://uploads-ssl.webflow.com/61f8fc4fb6f2a685a392e736/6225e9c4cca91d9dab7ef4c3__RVV2234-Edit.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.coaching h2 {
+    color: var(--white);
+    font-size: 76px;
+}
+
+.steps.section .row h2 {
+    font-size: 56px;
+    text-align: center;
+    width: 60%;
+}
+
+.steps.section .row .step {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.steps.section .row hr {
+    color: var(--white);
+    opacity: 0.3;
+    width: 40%;
+    margin: 40px auto;
+}
+
+.what .fa {
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.what .wrapper {
+    width: 60%;
+}
+
+.what .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.what .container .item {
+    flex: 1 0;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: var(--borderRadius);
+    background-color: var(--white);
+    border: 1px solid #c2ecfb;
+}
+
+.what .container.active .item {
+    border: 1px solid var(--primary);
+}
+
+
+
+
+.wrapper .item h5 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.coaches .wrapper {
+    width: 100%;
+    gap: 20px;
+}
+
+.coaches .wrapper .card {
+    flex: 1 0 25%;
+    position: relative;
+}
+
+.coaches .wrapper .card,
+.coaches .wrapper .card img {
+    border-radius: var(--borderRadius);
+}
+
+.coaches .wrapper .card .content {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+.coaches .wrapper .card .content h5 {
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.form-wrapper p {
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+@media (max-width: 560px) {
+    .banner.section h1 {
+        font-size: 30px;
+    }
+
+    .section h2 {
+        font-size: 26px;
+    }
+
+    .form-wrapper input::placeholder {
+        font-size: 14px;
+    }
+
+    .form-wrapper .btn,
+    .section .row .btn {
+        font-size: 10px;
+    }
+    
+    .header.section .nav::before {
+        background-color: var(--primary);
+    }
+
+    .header.active .topnav-content-sm svg {
+        fill: var(--primary);
+    }
+
+    .header.active .btn {
+        background-color: transparent;
+    }
+
+    .form-wrapper .form-row {
+        gap: 5px;
+    }
+}

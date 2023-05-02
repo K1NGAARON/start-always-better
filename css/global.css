@@ -159,7 +159,7 @@ img {
     color: var(--white);
     background-color: var(--primary);
     border: 1px solid var(--primary);
-    border-radius: 9px;
+    border-radius: 3px;
     padding: 10px 15px;
     transition: var(--transition); 
 }
