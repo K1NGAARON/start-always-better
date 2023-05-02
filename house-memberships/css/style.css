@@ -16,12 +16,22 @@
 }
 
 .banner h1 {
-    font-size: 46px;
+    font-size: 76px;
 }
 
 .banner h1,
 .banner p {
-    width: 60%;
+    width: 45%;
+}
+
+.section .wrapper {
+    margin: 40px auto;
+    gap: 60px;
+}
+
+.banner .subheadline {
+    text-transform: uppercase;
+    color: var(--black);
 }
 
 .section h2 {
@@ -35,26 +45,31 @@
     width: 100%;
 }
 
+.section h2.width-100 {
+    width: 100%;
+}
+
 .section.black h2,
 .section.black p  {
     color: var(--white);
 }
 
+.banner {
+    background-color: var(--black);
+}
+
+.banner .subheadline {
+    color: var(--white);
+}
+
 .banner,
 .banner .row {
-    min-height: fit-content;
+    min-height: 70vh;
+    color: var(--white);
 }
 
 .banner .row {
     padding-top: 40px;
-}
-
-.coaching {
-    height: 100vh;
-    width: 100%;
-    background-image: url('https://uploads-ssl.webflow.com/61f8fc4fb6f2a685a392e736/6225e9c4cca91d9dab7ef4c3__RVV2234-Edit.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .coaching h2 {
@@ -237,6 +252,64 @@
     font-size: 20px;
     width: 75%;
 }
+
+table {
+    width: 100%;
+    margin-top: 40px;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+table th {
+    text-align: left;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+table tr td:nth-child(1) {
+    /* color: var(--white);
+    border-color: var(--white);
+    background-color: var(--black); */
+    font-weight: 700;
+}
+
+table tr th {
+    border: none;
+}
+
+table .fa {
+    color: var(--primary);
+    padding: 5px;
+    border-radius: 50%;
+    border: 2px solid var(--primary);
+}
+
+.personal-coaching, 
+.item img,
+.item {
+    border-radius: var(--borderRadius);
+}
+
+
+
+.benefits .wrapper,
+.regenerative .wrapper {
+    gap: 60px;
+}
+
+.benefits .wrapper .item,
+.regenerative .wrapper .item {
+    flex: 1 0 25%
+}
+
+
+
+
+
 
 
 
