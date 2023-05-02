@@ -6,6 +6,15 @@
     gap: 20px;
 }
 
+.section .row.gap-60 {
+    gap: 60px;
+}
+
+.section h1,
+.section h2 {
+    line-height: 1;
+}
+
 .banner h1 {
     font-size: 46px;
 }
@@ -19,6 +28,11 @@
     font-size: 76px;
     text-align: center;
     width: 50%;
+}
+
+.section h2.left {
+    text-align: left;
+    width: 100%;
 }
 
 .section.black h2,
@@ -74,32 +88,101 @@
     margin-right: 10px;
 }
 
+.what .row .col {
+    flex: 1 0;
+}
+
+.what .row .col p {
+    text-align: center;
+}
+
 .what .wrapper {
     width: 60%;
+    margin-top: 40px;
 }
 
 .what .container {
+    flex: 1 0;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
 .what .container .item {
-    flex: 1 0;
+    flex: 1 0 33%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding: 30px;
     border-radius: var(--borderRadius);
     background-color: var(--white);
     border: 1px solid #c2ecfb;
 }
 
+.what .container .item p {
+    text-align: left;
+}
+
 .what .container.active .item {
     border: 1px solid var(--primary);
 }
 
+.what .btn {
+    margin-top: 60px;
+}
 
+.how .faq .accordion-list .accordion-item .accordion-head h5 {
+    color: var(--white);
+    text-transform: uppercase;
+}
 
+.how .faq .accordion-list .accordion-item .accordion-body p {
+    color: var(--white);
+    opacity: 0.6;
+}
+
+.how .faq .accordion-item:nth-child(1) {
+    border-top: none;
+}
+
+.how .faq .accordion-item {
+    border-top: 1px solid #ffffff60;
+    border-radius: 0;
+}
+
+.how .wrapper {
+    margin-top: 40px;
+}
+
+.reviews .wrapper {
+    gap: 20px;
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.reviews .item {
+    flex: 1 0;
+    justify-content: space-between;
+    background-color: var(--white);
+    padding: 30px;
+    box-shadow: var(--boxShadow);
+    border-radius: var(--borderRadius);
+}
+
+.reviews .item.black {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.reviews .item .review {
+    font-weight: 700;
+}
+
+.reviews .item .author {
+    font-weight: 700;
+    color: var(--primary);
+}
 
 .wrapper .item h5 {
     font-size: 26px;
@@ -132,6 +215,31 @@
     font-size: 30px;
     font-weight: 700;
 }
+
+.work .wrapper {
+    width: 80%;
+    flex-flow: row wrap;
+    gap: 60px;
+    margin: 40px auto 0 auto;
+}
+
+.work .wrapper .item {
+    flex: 1 0 45%;
+}
+
+.work .wrapper .item h5 {
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.work .wrapper .item p {
+    opacity: 0.6;
+    font-size: 20px;
+    width: 75%;
+}
+
+
+
 
 .form-wrapper p {
     font-size: 14px;
