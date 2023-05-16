@@ -1,0 +1,10 @@
+.gallery.section .wrapper .item,
+.gallery.section .wrapper .item img {
+    border-radius: var(--borderRadius);
+}
+
+@media (max-width: 560px) {
+    .gallery.section .wrapper .item {
+        flex: 1 0 40%;
+    }
+}
