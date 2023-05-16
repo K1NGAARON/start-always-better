@@ -3,6 +3,14 @@
     border-radius: var(--borderRadius);
 }
 
+.thank-you {
+    height: 90vh;
+} 
+
+.thank-you .row {
+    padding-top: 40px;
+}
+
 @media (max-width: 560px) {
     .gallery.section .wrapper .item {
         flex: 1 0 40%;
