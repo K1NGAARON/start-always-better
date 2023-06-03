@@ -25,19 +25,19 @@ $('.accordion-item').click(function () {
 function createLogos() {
     const logos = [
         {
-            img: '/ambassador-traject/img/logos/logo1.svg',
+            img: '/member-trial/img/logos/logo1.svg',
         },
         {
-            img: '/ambassador-traject/img/logos/logo2.svg',
+            img: '/member-trial/img/logos/logo2.svg',
         },
         {
-            img: '/ambassador-traject/img/logos/logo3.svg',
+            img: '/member-trial/img/logos/logo3.svg',
         },
         {
-            img: '/ambassador-traject/img/logos/logo4.svg',
+            img: '/member-trial/img/logos/logo4.svg',
         },
         {
-            img: '/ambassador-traject/img/logos/logo5.svg',
+            img: '/member-trial/img/logos/logo5.svg',
         },
     ];
 

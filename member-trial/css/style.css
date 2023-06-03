@@ -1,3 +1,24 @@
+.header.active.section {
+    background-color: var(--black);
+}
+
+.header.section .container .nav {
+    color: var(--white);
+}
+
+.header.section .nav::before {
+    background-color: var(--white);
+}
+
+.banner {
+    background-color: var(--black);
+}
+
+.banner h1,
+.banner li {
+    color: var(--white);
+}
+
 .banner,
 .banner .row {
     min-height: fit-content;
