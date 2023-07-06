@@ -307,7 +307,16 @@ table .fa {
 }
 
 
+.made-by {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
 
+.made-by p,
+.made-by a {
+    font-size: 14px;
+}
 
 
 
