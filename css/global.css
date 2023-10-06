@@ -1,5 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro');
-@import url("https://use.typekit.net/zdv0evm.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
     --primary: #28a2f8;
@@ -19,7 +18,7 @@ html {
 
 * {
     box-sizing: border-box;
-    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     margin: 0;
     padding: 0;
